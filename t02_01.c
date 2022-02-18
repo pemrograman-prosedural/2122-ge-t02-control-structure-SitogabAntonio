@@ -20,7 +20,7 @@ int main(int _argv, char **_argc)
         printf("%.2f\n", potonganharga);
         printf("%.2f\n", dibayar);
     }
-    else if (totalharga >= 100000)
+    else if (totalharga > 100000)
     {
         potonganharga = totalharga * 10 / 100;
         dibayar = totalharga - potonganharga;
