@@ -1,13 +1,14 @@
-// NIM - Name
-// NIM - Name
+// 12S21015 - Sitogab Antonio Octavianus Girsang
+// 12S21049 - Jesika Audina Purba
 
 #include <stdio.h>
 
 int main(int _argv, char **_argc)
 {
-  int buku, harga, potonganharga, totalharga, dibayar;
+  int buku;
+  float harga, potonganharga, totalharga, dibayar;
     scanf("%d", &buku);
-    scanf("%d", &harga);
+    scanf("%f", &harga);
 
     totalharga = buku * harga;
 
@@ -16,30 +17,30 @@ int main(int _argv, char **_argc)
         potonganharga = totalharga * 15 / 100;
         dibayar = totalharga - potonganharga;
 
-        printf("%d\n", potonganharga);
-        printf("%d\n", dibayar);
+        printf("%.2f\n", potonganharga);
+        printf("%.2f\n", dibayar);
     }
     else if (totalharga >= 100000)
     {
         potonganharga = totalharga * 10 / 100;
         dibayar = totalharga - potonganharga;
-        printf("%d\n", potonganharga);
-        printf("%d\n", dibayar);
+        printf("%.2f\n", potonganharga);
+        printf("%.2f\n", dibayar);
     }
     else if (totalharga > 50000)
     {
         potonganharga = totalharga * 5 / 100;
         dibayar = totalharga - potonganharga;
 
-        printf("%d\n", potonganharga);
-        printf("%d\n", dibayar);
+        printf("%.2f\n", potonganharga);
+        printf("%.2f\n", dibayar);
     }
     else if (totalharga < 50000)
     {
         potonganharga = 0;
         dibayar = totalharga - potonganharga;
         printf("%s\n", "---");
-        printf("%d\n", dibayar);
+        printf("%.2f\n", dibayar);
     }
 
  

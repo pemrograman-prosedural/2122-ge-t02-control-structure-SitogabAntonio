@@ -1,5 +1,5 @@
-// NIM - Name
-// NIM - Name
+// 12S21015 - Sitogab Antonio Octavianus Girsang
+// 12S21049 - Jesika Audina Purba
 
 #include <stdio.h>
 
@@ -8,34 +8,34 @@ int main(int _argv, char **_argc)
   int pilih;
   scanf("%d", &pilih);
   if(pilih==1){
-    printf("%s\nstaple food");
-    printf("%s\nyou need side dishes");
+    printf("\nstaple food");
+    printf("\nyou need side dishes");
   }else{
     if(pilih==2){
-      printf("%s\nside dishes");
-      printf("%s\nstaple food");
-      printf("%s\nyou need vegetables");
+      printf("\nside dishes");
+      printf("\nstaple food");
+      printf("\nyou need vegetables");
     }else{
       if(pilih==3){
-        printf("%s\nvegetables");
-        printf("%s\nside dishes");
-        printf("%s\nstaple food");
-        printf("%s\ngood");
+        printf("\nvegetables");
+        printf("\nside dishes");
+        printf("\nstaple food");
+        printf("\ngood");
       }else{
         if(pilih==4){
-          printf("%s\nfruits");
-          printf("%s\nvegetables");
-          printf("%s\nside dishes");
-          printf("%s\nstaple food");
-          printf("%s\nvery good");
+          printf("\nfruits");
+          printf("\nvegetables");
+          printf("\nside dishes");
+          printf("\nstaple food");
+          printf("\nvery good");
         }else{
           if(pilih==5){
-            printf("%s\nmilk");
-            printf("%s\nfruits");
-            printf ("%s\nvegetables");
-            printf("%s\nside dishes");
-            printf("%s\nstaple food");
-            printf("%s\nperfect");
+            printf("\nmilk");
+            printf("\nfruits");
+            printf("\nvegetables");
+            printf("\nside dishes");
+            printf("\nstaple food");
+            printf("\nperfect");
           }
         }
       }
